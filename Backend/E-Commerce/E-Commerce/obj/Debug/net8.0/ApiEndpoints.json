@@ -1,0 +1,92 @@
+[
+  {
+    "ContainingType": "E_Commerce.Controllers.CategoryController",
+    "Method": "AddCategory",
+    "RelativePath": "Category/AddCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "E_Commerce.Models.CategoryModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_Commerce.Controllers.CategoryController",
+    "Method": "CategoryDropDown",
+    "RelativePath": "Category/CategoryDropDown",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_Commerce.Controllers.CategoryController",
+    "Method": "DeleteCategory",
+    "RelativePath": "Category/DeleteCategory",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_Commerce.Controllers.CategoryController",
+    "Method": "GetAllCategories",
+    "RelativePath": "Category/GetAllCategories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "E_Commerce.Models.FilterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_Commerce.Controllers.CategoryController",
+    "Method": "GetCategoryByID",
+    "RelativePath": "Category/GetCategoryByID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_Commerce.Controllers.CategoryController",
+    "Method": "UpdateCategory",
+    "RelativePath": "Category/UpdateCategory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "E_Commerce.Models.CategoryModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
